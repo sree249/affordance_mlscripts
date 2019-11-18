@@ -1,0 +1,154 @@
+---
+title: "Reg_analysis_R"
+author: "Sree"
+date: "November 13, 2018"
+output: word_document
+---
+
+```{r}
+#device <- list('Laptop', 'Smart_Phone', 'Desktop_Computer','Tablet','Smart_Speaker','Smart_Watch')
+cur_device <- 'Smart_Phone'
+cur_file = 'encoded_Affordance_November19_alldata_'
+file_name <- paste('C:/Users/sree2/Dropbox/SYR_GAship/afforadance_Study/Datasets/Encoded_files/',cur_file,'Smart_Phone','_data.csv',sep="")
+#file_name
+library(readr)
+cur_dev_data <- read_csv(file_name)
+#head(cur_dev_data)
+```
+
+```{r}
+library(stringr)
+#Relationship_3
+#location_3
+#Q4_feat3
+headers <- colnames(cur_dev_data)
+header_data <- list()
+#correlations <- cor(cur_dev_data)
+#highCorr <- findCorrelation(correlations, cutoff = .7, names = FALSE)
+#highCorr
+#headers <- headers[, -highCorr]
+i=1
+form_fin <- ""
+for(var in 1:length(headers))
+{
+  #headers[1]
+  if(str_detect(headers[var],'_')) {
+    if(str_detect(headers[var],'sce') == FALSE) {
+      if(str_detect(headers[var],'device') == FALSE) {
+        if(str_detect(headers[var],'actual') == FALSE) {
+            if(str_detect(headers[var],'location_3') == FALSE) {
+             if(str_detect(headers[var],'Relationship_3') == FALSE) {
+              if(str_detect(headers[var],'Q4_feat3') == FALSE) {
+                    form_fin <- paste(form_fin,headers[var],sep="+")
+                    header_data[i]<-headers[var]
+                    i <- i+1
+               }
+              }
+            }
+        }
+      }
+    }
+  }
+}
+
+form_fin <- substring(form_fin,2)
+form_fin <- paste("actual_use",form_fin,sep="~")
+#header_data
+```
+
+
+
+```{r}
+library(caret)
+```
+
+```{r}
+final_data <- cur_dev_data[unlist(header_data,use.names=FALSE)]
+final_data <- data.matrix(final_data)
+cor_data <- cor(final_data)
+highCorr <- findCorrelation(cor_data, cutoff = .75, names = FALSE)
+newheads <- unlist(header_data)[-highCorr]
+final_new_data <- cur_dev_data[c(c("actual_use"),newheads)]
+```
+
+```{r}
+glmout <- glm(form_fin, data=cur_dev_data,family=binomial())
+#glmout <- glm(actual_use ~ .,data=final_new_data,family=binomial())
+summary(glmout)
+feats <- summary(glmout)$coefficients[,4]
+#feats
+fin_feats <- feats[feats<=0.05]
+length(fin_feats)
+fin_feats
+file_path = "C:/Users/sree2/Dropbox/SYR_GAship/afforadance_Study/ML models/logistic_Regression_p_values/New results/modified_glm/"
+file_fin = paste(file_path,cur_file,cur_device,"_pvalues.csv",sep="")
+#column_names = c('Features','p_values')
+write.csv(fin_feats,file_fin,)
+```
+
+```{r}
+library(car)
+vifout <- vif(glmout)
+vif_fin <- vifout[vifout>=5]
+vif_fin
+```
+
+```{r}
+names(vif_fin)
+```
+
+```{r}
+#use unlist to convert from list to vector
+final_data <- cur_dev_data[unlist(header_data,use.names=FALSE)]
+final_data <- data.matrix(final_data)
+cor_data <- cor(final_data)
+#length(names(vif_fin))
+cor_data_fin <- cor_data[names(vif_fin),]
+inds <- which(cor_data_fin>=0.75 & cor_data_fin < 1,arr.ind = T)
+res <-unique(rownames(inds))
+#which(cor_data[,inds[,2][1]] >= 0.75 & cor_data[,inds[,2][1]] < 1)
+#write.csv(cor_data_fin,"correlations_data.csv")
+res
+```
+
+```{r}
+#Q10_feat6
+#Smart_Phone_Q2_feat5
+#Smart_Phone_Q4_feat1
+#Smart_Phone_Q4_feat3
+#Smart_Phone_Q5_feat1
+#Smart_Phone_Q6_feat1
+#Smart_Phone_Q10_feat3
+#Smart_Phone_Q12_feat1
+#Smart_Phone_Q12_feat5
+#Smart_Phone_Q13_feat1
+#Smart_Phone_Q13_feat4
+#location_1
+features_remove <- c(res[4],res[5])
+#features_remove
+ind_remove <- match(features_remove[1],header_data)
+final_features <- unlist(header_data[-ind_remove])
+#final_features
+#final_features
+final_data_features <- cur_dev_data[c(c("actual_use"),final_features)]
+glmnew <- glm(actual_use ~ .,data=final_data_features)
+vifoutnew <- vif(glmnew)
+vif_finnew <- vifoutnew[vifoutnew>=5]
+#vif_finnew
+cur_data <- data.matrix(cur_dev_data[final_features])
+cor_data <- cor(cur_data)
+#length(names(vif_fin))
+cor_data_fin <- cor_data[names(vif_finnew),]
+inds <- which(cor_data_fin>=0.75 & cor_data_fin < 1,arr.ind = T)
+inds
+#res <-unique(rownames(inds))#which(cor_data[,inds[,2][1]] >= 0.75 & cor_data[,inds[,2][1]] < 1)
+#write.csv(cor_data_fin,"correlations_data.csv")
+
+
+```
+
+
+
+
+
+

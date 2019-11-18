@@ -1,0 +1,90 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (195, 5)
+shape of test data: (131, 5)
+positive class in train 0.205128205128
+positive class in test 0.18320610687
+
+current classifier: RandomForest
+current reduction: pca
+F1 score obtained: 0.909090909091
+auc socre obtained 0.97546728972
+precision score obtained 1.0
+recall score obtained 0.833333333333
+accuracy score 0.969465648855
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Phone
+shape of train data: (217, 5)
+shape of test data: (146, 5)
+positive class in train 0.58064516129
+positive class in test 0.63698630137
+
+current classifier: RandomForest
+current reduction: pca
+F1 score obtained: 0.967741935484
+auc socre obtained 0.985291134104
+precision score obtained 0.967741935484
+recall score obtained 0.967741935484
+accuracy score 0.958904109589
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop Computer
+shape of train data: (147, 5)
+shape of test data: (98, 5)
+positive class in train 0.108843537415
+positive class in test 0.102040816327
+
+current classifier: RandomForest
+current reduction: pca
+F1 score obtained: 0.75
+auc socre obtained 0.935795454545
+precision score obtained 1.0
+recall score obtained 0.6
+accuracy score 0.959183673469
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of train data: (184, 5)
+shape of test data: (123, 5)
+positive class in train 0.233695652174
+positive class in test 0.227642276423
+
+current classifier: RandomForest
+current reduction: pca
+F1 score obtained: 0.943396226415
+auc socre obtained 0.959022556391
+precision score obtained 1.0
+recall score obtained 0.892857142857
+accuracy score 0.975609756098
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Speaker
+shape of train data: (155, 5)
+shape of test data: (104, 5)
+positive class in train 0.174193548387
+positive class in test 0.163461538462
+
+current classifier: RandomForest
+current reduction: pca
+F1 score obtained: 0.9375
+auc socre obtained 0.965517241379
+precision score obtained 1.0
+recall score obtained 0.882352941176
+accuracy score 0.980769230769
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Watch
+shape of train data: (149, 5)
+shape of test data: (100, 5)
+positive class in train 0.308724832215
+positive class in test 0.3
+
+current classifier: RandomForest
+current reduction: pca
+F1 score obtained: 0.983050847458
+auc socre obtained 0.999285714286
+precision score obtained 1.0
+recall score obtained 0.966666666667
+accuracy score 0.99
+labels : [ 0.  1.]

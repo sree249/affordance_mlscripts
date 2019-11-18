@@ -1,0 +1,90 @@
+---
+title: "Regression_analysis_SmartSpeakers"
+author: "Sree"
+date: "November 30, 2018"
+output: word_document
+---
+
+```{r}
+#device <- list('Laptop', 'Smart_Phone', 'Desktop_Computer','Tablet','Smart_Speaker','Smart_Watch')
+cur_file = 'encoded_Affordance_November19_alldata_'
+cur_device = 'Smart_Speaker'
+file_name <- paste('C:/Users/sree2/Dropbox/SYR_GAship/afforadance_Study/Datasets/Encoded_files/',cur_file,'Smart_Speaker','_data.csv',sep="")
+#file_name
+library(readr)
+cur_dev_data <- read_csv(file_name)
+#head(cur_dev_data)
+```
+
+```{r}
+library(stringr)
+#Relationship_3
+#location_3
+#Q4_feat3
+#Smart_Speaker_Q10_feat6          
+#Smart_Speaker_Q10_feat7
+#Smart_Speaker_Q13_feat1
+headers <- colnames(cur_dev_data)
+header_data <- list()
+form_fin <- ""
+for(var in 1:length(headers))
+{
+  #headers[1]
+  if(str_detect(headers[var],'_')) {
+    if(str_detect(headers[var],'sce') == FALSE) {
+      if(str_detect(headers[var],'device') == FALSE) {
+        if(str_detect(headers[var],'actual') == FALSE){
+          if(str_detect(headers[var],'Q4_feat3') == FALSE) {
+              if(str_detect(headers[var],'location_3') == FALSE) {
+               if(str_detect(headers[var],'Relationship_3') == FALSE) {
+                  if(str_detect(headers[var], 'Smart_Speaker_Q10_feat6') == FALSE) {
+                  if(str_detect(headers[var],'Smart_Speaker_Q10_feat7') == FALSE) {
+                    if(str_detect(headers[var],'Smart_Speaker_Q13_feat1') == FALSE){
+                    form_fin <- paste(form_fin,headers[var],sep="+")
+                     header_data[i]<-headers[var]
+                    i <- i+1
+                }
+              }
+               }
+              }
+          }
+        }
+        }
+      }
+    }
+  }
+}
+      
+
+form_fin <- substring(form_fin,2)
+form_fin <- paste("actual_use",form_fin,sep="~")
+#form_fin
+```
+
+
+
+```{r}
+library(caret)
+final_data <- cur_dev_data[unlist(header_data,use.names=FALSE)]
+final_data <- data.matrix(final_data)
+cor_data <- cor(final_data)
+highCorr <- findCorrelation(cor_data, cutoff = .75, names = FALSE)
+newheads <- unlist(header_data)[-highCorr]
+final_new_data <- cur_dev_data[c(c("actual_use"),newheads)]
+```
+
+
+```{r}
+glmout <- glm(actual_use ~ .,data=final_new_data,family=binomial())
+summary(glmout)
+feats <- summary(glmout)$coefficients[,4]
+fin_feats <- feats[feats<=0.05]
+fin_feats
+length(fin_feats)
+file_path = "C:/Users/sree2/Dropbox/SYR_GAship/afforadance_Study/ML models/logistic_Regression_p_values/New results/"
+file_fin = paste(file_path,cur_file,cur_device,"_pvalues.csv",sep="")
+#column_names = c('Features','p_values')
+#write.csv(fin_feats,file_fin,)
+exp(coef(glmout))
+```
+

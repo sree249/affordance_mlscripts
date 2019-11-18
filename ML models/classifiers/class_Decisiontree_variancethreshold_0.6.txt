@@ -1,0 +1,90 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (195, 10)
+shape of test data: (131, 10)
+positive class in train 0.205128205128
+positive class in test 0.18320610687
+
+current classifier: Decisiontree
+current reduction: variancethreshold
+F1 score obtained: 0.28
+auc socre obtained 0.593068535826
+precision score obtained 0.269230769231
+recall score obtained 0.291666666667
+accuracy score 0.725190839695
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Phone
+shape of train data: (217, 15)
+shape of test data: (146, 15)
+positive class in train 0.58064516129
+positive class in test 0.63698630137
+
+current classifier: Decisiontree
+current reduction: variancethreshold
+F1 score obtained: 0.940540540541
+auc socre obtained 0.929093122337
+precision score obtained 0.945652173913
+recall score obtained 0.935483870968
+accuracy score 0.924657534247
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop Computer
+shape of train data: (147, 14)
+shape of test data: (98, 14)
+positive class in train 0.108843537415
+positive class in test 0.102040816327
+
+current classifier: Decisiontree
+current reduction: variancethreshold
+F1 score obtained: 0.0869565217391
+auc socre obtained 0.481818181818
+precision score obtained 0.0769230769231
+recall score obtained 0.1
+accuracy score 0.785714285714
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of train data: (184, 13)
+shape of test data: (123, 13)
+positive class in train 0.233695652174
+positive class in test 0.227642276423
+
+current classifier: Decisiontree
+current reduction: variancethreshold
+F1 score obtained: 0.170212765957
+auc socre obtained 0.483458646617
+precision score obtained 0.210526315789
+recall score obtained 0.142857142857
+accuracy score 0.682926829268
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Speaker
+shape of train data: (155, 11)
+shape of test data: (104, 11)
+positive class in train 0.174193548387
+positive class in test 0.163461538462
+
+current classifier: Decisiontree
+current reduction: variancethreshold
+F1 score obtained: 0.411764705882
+auc socre obtained 0.649763353617
+precision score obtained 0.411764705882
+recall score obtained 0.411764705882
+accuracy score 0.807692307692
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Watch
+shape of train data: (149, 12)
+shape of test data: (100, 12)
+positive class in train 0.308724832215
+positive class in test 0.3
+
+current classifier: Decisiontree
+current reduction: variancethreshold
+F1 score obtained: 0.46875
+auc socre obtained 0.66119047619
+precision score obtained 0.441176470588
+recall score obtained 0.5
+accuracy score 0.66
+labels : [ 0.  1.]

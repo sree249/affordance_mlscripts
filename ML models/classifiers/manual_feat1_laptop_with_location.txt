@@ -1,0 +1,28 @@
+##########################################
+current device dataset: Laptop
+the current model: part1_part2_loc
+the number of features in cur model 11
+Questions in part 1: None
+Questions in part 2: ['Q1','Q4']
+shape of data: (588, 11)
+positive class in data 0.5
+           features  Importance
+0   Laptop_Q1_feat4    0.487575
+1   Laptop_Q1_feat2    0.267112
+2   Laptop_Q4_feat3    0.117595
+3   Laptop_Q4_feat1    0.110865
+4        location_1    0.014494
+5        location_3    0.002359
+6   Laptop_Q1_feat1    0.000000
+7   Laptop_Q1_feat3    0.000000
+8   Laptop_Q1_feat5    0.000000
+9   Laptop_Q1_feat7    0.000000
+10       location_2    0.000000
+
+current classifier: Decisiontree
+current reduction: none
+F1 score obtained: 0.914339474609
+auc socre obtained 0.951931496895
+precision score obtained 1.0
+recall score obtained 0.846666666667
+accuracy score 0.923333333333

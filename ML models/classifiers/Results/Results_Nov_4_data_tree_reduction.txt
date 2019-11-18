@@ -1,0 +1,523 @@
+
+1. Tree based feature reduction:
+
+a. Decision Trees:
+##########################################
+current device dataset: Laptop
+shape of X features (614, 672)
+shape of Y variables (614, 1)
+shape of train data: (368, 5)
+shape of test data: (246, 5)
+positive class in train 0.317934782609
+positive class in test 0.29674796748
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.803278688525
+auc socre obtained 0.835616438356
+precision score obtained 1.0
+recall score obtained 0.671232876712
+accuracy score 0.90243902439
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Phone
+shape of X features (683, 672)
+shape of Y variables (683, 1)
+shape of train data: (409, 5)
+shape of test data: (274, 5)
+positive class in train 0.581907090465
+positive class in test 0.624087591241
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.844594594595
+auc socre obtained 0.865497076023
+precision score obtained 1.0
+recall score obtained 0.730994152047
+accuracy score 0.832116788321
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop_Computer
+shape of X features (478, 672)
+shape of Y variables (478, 1)
+shape of train data: (286, 5)
+shape of test data: (192, 5)
+positive class in train 0.164335664336
+positive class in test 0.1875
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.819672131148
+auc socre obtained 0.847222222222
+precision score obtained 1.0
+recall score obtained 0.694444444444
+accuracy score 0.942708333333
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of X features (585, 672)
+shape of Y variables (585, 1)
+shape of train data: (351, 5)
+shape of test data: (234, 5)
+positive class in train 0.373219373219
+positive class in test 0.337606837607
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.917808219178
+auc socre obtained 0.924050632911
+precision score obtained 1.0
+recall score obtained 0.848101265823
+accuracy score 0.948717948718
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Speaker
+shape of X features (452, 672)
+shape of Y variables (452, 1)
+shape of train data: (271, 5)
+shape of test data: (181, 5)
+positive class in train 0.184501845018
+positive class in test 0.193370165746
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.923076923077
+auc socre obtained 0.944716242661
+precision score obtained 1.0
+recall score obtained 0.857142857143
+accuracy score 0.972375690608
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Watch
+shape of X features (417, 672)
+shape of Y variables (417, 1)
+shape of train data: (250, 5)
+shape of test data: (167, 5)
+positive class in train 0.288
+positive class in test 0.353293413174
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.955752212389
+auc socre obtained 0.964139987445
+precision score obtained 1.0
+recall score obtained 0.915254237288
+accuracy score 0.97005988024
+labels : [ 0.  1.]
+
+
+b. SVM
+##########################################
+current device dataset: Laptop
+shape of X features (614, 672)
+shape of Y variables (614, 1)
+shape of train data: (368, 5)
+shape of test data: (246, 5)
+positive class in train 0.317934782609
+positive class in test 0.29674796748
+
+current classifier: SVM
+current reduction: tree
+F1 score obtained: 0.813008130081
+auc socre obtained 0.842465753425
+precision score obtained 1.0
+recall score obtained 0.684931506849
+accuracy score 0.906504065041
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Phone
+shape of X features (683, 672)
+shape of Y variables (683, 1)
+shape of train data: (409, 5)
+shape of test data: (274, 5)
+positive class in train 0.581907090465
+positive class in test 0.624087591241
+
+current classifier: SVM
+current reduction: tree
+F1 score obtained: 0.875
+auc socre obtained 0.888888888889
+precision score obtained 1.0
+recall score obtained 0.777777777778
+accuracy score 0.861313868613
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop_Computer
+shape of X features (478, 672)
+shape of Y variables (478, 1)
+shape of train data: (286, 5)
+shape of test data: (192, 5)
+positive class in train 0.164335664336
+positive class in test 0.1875
+
+current classifier: SVM
+current reduction: tree
+F1 score obtained: 0.875
+auc socre obtained 0.888888888889
+precision score obtained 1.0
+recall score obtained 0.777777777778
+accuracy score 0.958333333333
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of X features (585, 672)
+shape of Y variables (585, 1)
+shape of train data: (351, 5)
+shape of test data: (234, 5)
+positive class in train 0.373219373219
+positive class in test 0.337606837607
+
+current classifier: SVM
+current reduction: tree
+F1 score obtained: 0.895104895105
+auc socre obtained 0.905063291139
+precision score obtained 1.0
+recall score obtained 0.810126582278
+accuracy score 0.935897435897
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Speaker
+shape of X features (452, 672)
+shape of Y variables (452, 1)
+shape of train data: (271, 5)
+shape of test data: (181, 5)
+positive class in train 0.184501845018
+positive class in test 0.193370165746
+
+current classifier: SVM
+current reduction: tree
+F1 score obtained: 0.90625
+auc socre obtained 0.914285714286
+precision score obtained 1.0
+recall score obtained 0.828571428571
+accuracy score 0.966850828729
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Watch
+shape of X features (417, 672)
+shape of Y variables (417, 1)
+shape of train data: (250, 5)
+shape of test data: (167, 5)
+positive class in train 0.288
+positive class in test 0.353293413174
+
+current classifier: SVM
+current reduction: tree
+F1 score obtained: 0.973913043478
+auc socre obtained 0.974576271186
+precision score obtained 1.0
+recall score obtained 0.949152542373
+accuracy score 0.982035928144
+labels : [ 0.  1.]
+
+C. RandomForest
+##########################################
+current device dataset: Laptop
+shape of X features (614, 672)
+shape of Y variables (614, 1)
+shape of train data: (368, 5)
+shape of test data: (246, 5)
+positive class in train 0.317934782609
+positive class in test 0.29674796748
+
+current classifier: RandomForest
+current reduction: tree
+F1 score obtained: 0.885496183206
+auc socre obtained 0.897260273973
+precision score obtained 1.0
+recall score obtained 0.794520547945
+accuracy score 0.939024390244
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Phone
+shape of X features (683, 672)
+shape of Y variables (683, 1)
+shape of train data: (409, 5)
+shape of test data: (274, 5)
+positive class in train 0.581907090465
+positive class in test 0.624087591241
+
+current classifier: RandomForest
+current reduction: tree
+F1 score obtained: 0.882352941176
+auc socre obtained 0.894736842105
+precision score obtained 1.0
+recall score obtained 0.789473684211
+accuracy score 0.868613138686
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop_Computer
+shape of X features (478, 672)
+shape of Y variables (478, 1)
+shape of train data: (286, 5)
+shape of test data: (192, 5)
+positive class in train 0.164335664336
+positive class in test 0.1875
+
+current classifier: RandomForest
+current reduction: tree
+F1 score obtained: 0.857142857143
+auc socre obtained 0.88514957265
+precision score obtained 1.0
+recall score obtained 0.75
+accuracy score 0.953125
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of X features (585, 672)
+shape of Y variables (585, 1)
+shape of train data: (351, 5)
+shape of test data: (234, 5)
+positive class in train 0.373219373219
+positive class in test 0.337606837607
+
+current classifier: RandomForest
+current reduction: tree
+F1 score obtained: 0.946666666667
+auc socre obtained 0.949367088608
+precision score obtained 1.0
+recall score obtained 0.898734177215
+accuracy score 0.965811965812
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Speaker
+shape of X features (452, 672)
+shape of Y variables (452, 1)
+shape of train data: (271, 5)
+shape of test data: (181, 5)
+positive class in train 0.184501845018
+positive class in test 0.193370165746
+
+current classifier: RandomForest
+current reduction: tree
+F1 score obtained: 0.90625
+auc socre obtained 0.914677103718
+precision score obtained 1.0
+recall score obtained 0.828571428571
+accuracy score 0.966850828729
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Watch
+shape of X features (417, 672)
+shape of Y variables (417, 1)
+shape of train data: (250, 5)
+shape of test data: (167, 5)
+positive class in train 0.288
+positive class in test 0.353293413174
+
+current classifier: RandomForest
+current reduction: tree
+F1 score obtained: 0.927272727273
+auc socre obtained 0.932203389831
+precision score obtained 1.0
+recall score obtained 0.864406779661
+accuracy score 0.952095808383
+labels : [ 0.  1.]
+
+D. Adaboost:
+##########################################
+current device dataset: Laptop
+shape of X features (614, 672)
+shape of Y variables (614, 1)
+shape of train data: (368, 5)
+shape of test data: (246, 5)
+positive class in train 0.317934782609
+positive class in test 0.29674796748
+
+current classifier: Adaboost
+current reduction: tree
+F1 score obtained: 0.893939393939
+auc socre obtained 0.904109589041
+precision score obtained 1.0
+recall score obtained 0.808219178082
+accuracy score 0.943089430894
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Phone
+shape of X features (683, 672)
+shape of Y variables (683, 1)
+shape of train data: (409, 5)
+shape of test data: (274, 5)
+positive class in train 0.581907090465
+positive class in test 0.624087591241
+
+current classifier: Adaboost
+current reduction: tree
+F1 score obtained: 0.86
+auc socre obtained 0.877192982456
+precision score obtained 1.0
+recall score obtained 0.754385964912
+accuracy score 0.846715328467
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop_Computer
+shape of X features (478, 672)
+shape of Y variables (478, 1)
+shape of train data: (286, 5)
+shape of test data: (192, 5)
+positive class in train 0.164335664336
+positive class in test 0.1875
+
+current classifier: Adaboost
+current reduction: tree
+F1 score obtained: 0.892307692308
+auc socre obtained 0.905448717949
+precision score obtained 1.0
+recall score obtained 0.805555555556
+accuracy score 0.963541666667
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of X features (585, 672)
+shape of Y variables (585, 1)
+shape of train data: (351, 5)
+shape of test data: (234, 5)
+positive class in train 0.373219373219
+positive class in test 0.337606837607
+
+current classifier: Adaboost
+current reduction: tree
+F1 score obtained: 0.895104895105
+auc socre obtained 0.905063291139
+precision score obtained 1.0
+recall score obtained 0.810126582278
+accuracy score 0.935897435897
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Speaker
+shape of X features (452, 672)
+shape of Y variables (452, 1)
+shape of train data: (271, 5)
+shape of test data: (181, 5)
+positive class in train 0.184501845018
+positive class in test 0.193370165746
+
+current classifier: Adaboost
+current reduction: tree
+F1 score obtained: 0.923076923077
+auc socre obtained 0.928571428571
+precision score obtained 1.0
+recall score obtained 0.857142857143
+accuracy score 0.972375690608
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Watch
+shape of X features (417, 672)
+shape of Y variables (417, 1)
+shape of train data: (250, 5)
+shape of test data: (167, 5)
+positive class in train 0.288
+positive class in test 0.353293413174
+
+current classifier: Adaboost
+current reduction: tree
+F1 score obtained: 0.98275862069
+auc socre obtained 0.983050847458
+precision score obtained 1.0
+recall score obtained 0.966101694915
+accuracy score 0.988023952096
+labels : [ 0.  1.]
+
+E. Logistic:
+##########################################
+current device dataset: Laptop
+shape of X features (614, 672)
+shape of Y variables (614, 1)
+shape of train data: (368, 5)
+shape of test data: (246, 5)
+positive class in train 0.317934782609
+positive class in test 0.29674796748
+
+current classifier: logistic
+current reduction: tree
+F1 score obtained: 0.832
+auc socre obtained 0.856164383562
+precision score obtained 1.0
+recall score obtained 0.712328767123
+accuracy score 0.914634146341
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Phone
+shape of X features (683, 672)
+shape of Y variables (683, 1)
+shape of train data: (409, 5)
+shape of test data: (274, 5)
+positive class in train 0.581907090465
+positive class in test 0.624087591241
+
+current classifier: logistic
+current reduction: tree
+F1 score obtained: 0.8
+auc socre obtained 0.833333333333
+precision score obtained 1.0
+recall score obtained 0.666666666667
+accuracy score 0.79197080292
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop_Computer
+shape of X features (478, 672)
+shape of Y variables (478, 1)
+shape of train data: (286, 5)
+shape of test data: (192, 5)
+positive class in train 0.164335664336
+positive class in test 0.1875
+
+current classifier: logistic
+current reduction: tree
+F1 score obtained: 0.779661016949
+auc socre obtained 0.888888888889
+precision score obtained 1.0
+recall score obtained 0.638888888889
+accuracy score 0.932291666667
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of X features (585, 672)
+shape of Y variables (585, 1)
+shape of train data: (351, 5)
+shape of test data: (234, 5)
+positive class in train 0.373219373219
+positive class in test 0.337606837607
+
+current classifier: logistic
+current reduction: tree
+F1 score obtained: 0.863309352518
+auc socre obtained 0.879746835443
+precision score obtained 1.0
+recall score obtained 0.759493670886
+accuracy score 0.918803418803
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Speaker
+shape of X features (452, 672)
+shape of Y variables (452, 1)
+shape of train data: (271, 5)
+shape of test data: (181, 5)
+positive class in train 0.184501845018
+positive class in test 0.193370165746
+
+current classifier: logistic
+current reduction: tree
+F1 score obtained: 0.870967741935
+auc socre obtained 0.951272015656
+precision score obtained 1.0
+recall score obtained 0.771428571429
+accuracy score 0.955801104972
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart_Watch
+shape of X features (417, 672)
+shape of Y variables (417, 1)
+shape of train data: (250, 5)
+shape of test data: (167, 5)
+positive class in train 0.288
+positive class in test 0.353293413174
+
+current classifier: logistic
+current reduction: tree
+F1 score obtained: 0.991452991453
+auc socre obtained 0.991525423729
+precision score obtained 1.0
+recall score obtained 0.983050847458
+accuracy score 0.994011976048
+labels : [ 0.  1.]	

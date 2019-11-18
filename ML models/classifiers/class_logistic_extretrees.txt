@@ -1,0 +1,90 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (195, 21)
+shape of test data: (131, 21)
+positive class in train 0.205128205128
+positive class in test 0.18320610687
+
+current classifier: Logistic
+current reduction: tree
+F1 score obtained: 0.95652173913
+auc socre obtained 0.979166666667
+precision score obtained 1.0
+recall score obtained 0.916666666667
+accuracy score 0.984732824427
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Phone
+shape of train data: (217, 23)
+shape of test data: (146, 23)
+positive class in train 0.58064516129
+positive class in test 0.63698630137
+
+current classifier: Logistic
+current reduction: tree
+F1 score obtained: 0.989130434783
+auc socre obtained 0.989247311828
+precision score obtained 1.0
+recall score obtained 0.978494623656
+accuracy score 0.986301369863
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop Computer
+shape of train data: (147, 21)
+shape of test data: (98, 21)
+positive class in train 0.108843537415
+positive class in test 0.102040816327
+
+current classifier: Logistic
+current reduction: tree
+F1 score obtained: 0.823529411765
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.7
+accuracy score 0.969387755102
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of train data: (184, 19)
+shape of test data: (123, 19)
+positive class in train 0.233695652174
+positive class in test 0.227642276423
+
+current classifier: Logistic
+current reduction: tree
+F1 score obtained: 0.962962962963
+auc socre obtained 0.982142857143
+precision score obtained 1.0
+recall score obtained 0.928571428571
+accuracy score 0.983739837398
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Speaker
+shape of train data: (155, 13)
+shape of test data: (104, 13)
+positive class in train 0.174193548387
+positive class in test 0.163461538462
+
+current classifier: Logistic
+current reduction: tree
+F1 score obtained: 0.9375
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.882352941176
+accuracy score 0.980769230769
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Watch
+shape of train data: (149, 14)
+shape of test data: (100, 14)
+positive class in train 0.308724832215
+positive class in test 0.3
+
+current classifier: Logistic
+current reduction: tree
+F1 score obtained: 0.983050847458
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.966666666667
+accuracy score 0.99
+labels : [ 0.  1.]

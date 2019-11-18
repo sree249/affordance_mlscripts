@@ -1,0 +1,492 @@
+C:\Users\sree2\Dropbox\SYR_GAship\afforadance_Study\ML models\classifiers>python classifiers_withrfecv.py
+##########################################
+current device dataset: Laptop
+the current model: part1
+the number of features in cur model 43
+number of features selected: 3
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.715268225585
+auc socre obtained 0.720078875171
+precision score obtained 0.645161290323
+recall score obtained 0.802469135802
+accuracy score 0.680555555556
+##########################################
+current device dataset: Smart_Phone
+the current model: part1
+the number of features in cur model 43
+number of features selected: 4
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.68281938326
+auc socre obtained 0.697144434468
+precision score obtained 0.617529880478
+recall score obtained 0.76354679803
+accuracy score 0.645320197044
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1
+the number of features in cur model 43
+number of features selected: 5
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.68438538206
+auc socre obtained 0.739265821674
+precision score obtained 0.686666666667
+recall score obtained 0.682119205298
+accuracy score 0.685430463576
+##########################################
+current device dataset: Smart_Watch
+the current model: part1
+the number of features in cur model 43
+number of features selected: 3
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.660792951542
+auc socre obtained 0.70584045584
+precision score obtained 0.681818181818
+recall score obtained 0.641025641026
+accuracy score 0.67094017094
+##########################################
+current device dataset: Tablet
+the current model: part1
+the number of features in cur model 43
+number of features selected: 3
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.626344086022
+auc socre obtained 0.665117418646
+precision score obtained 0.618037135279
+recall score obtained 0.634877384196
+accuracy score 0.621253405995
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1
+the number of features in cur model 43
+number of features selected: 1
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.53807106599
+auc socre obtained 0.657894736842
+precision score obtained 0.828125
+recall score obtained 0.398496240602
+accuracy score 0.657894736842
+#####################################################
+participant accuracy: 0.612903225806
+
+C:\Users\sree2\Dropbox\SYR_GAship\afforadance_Study\ML models\classifiers>python classifiers_withrfecv.py
+##########################################
+current device dataset: Laptop
+the current model: part1_loc_rel
+the number of features in cur model 47
+number of features selected: 4
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.684627575277
+auc socre obtained 0.740721688767
+precision score obtained 0.703583061889
+recall score obtained 0.666666666667
+accuracy score 0.692901234568
+##########################################
+current device dataset: Smart_Phone
+the current model: part1_loc_rel
+the number of features in cur model 47
+number of features selected: 4
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.676654182272
+auc socre obtained 0.726212720522
+precision score obtained 0.686075949367
+recall score obtained 0.667487684729
+accuracy score 0.681034482759
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1_loc_rel
+the number of features in cur model 47
+number of features selected: 1
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.707482993197
+auc socre obtained 0.715231788079
+precision score obtained 0.727272727273
+recall score obtained 0.688741721854
+accuracy score 0.715231788079
+##########################################
+current device dataset: Smart_Watch
+the current model: part1_loc_rel
+the number of features in cur model 47
+number of features selected: 4
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.674008810573
+auc socre obtained 0.735873694207
+precision score obtained 0.695454545455
+recall score obtained 0.653846153846
+accuracy score 0.683760683761
+##########################################
+current device dataset: Tablet
+the current model: part1_loc_rel
+the number of features in cur model 47
+number of features selected: 5
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.490842490842
+auc socre obtained 0.664820438195
+precision score obtained 0.748603351955
+recall score obtained 0.365122615804
+accuracy score 0.621253405995
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1_loc_rel
+the number of features in cur model 47
+number of features selected: 1
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.769811320755
+auc socre obtained 0.770676691729
+precision score obtained 0.772727272727
+recall score obtained 0.766917293233
+accuracy score 0.770676691729
+#####################################################
+participant accuracy: 0.54
+
+C:\Users\sree2\Dropbox\SYR_GAship\afforadance_Study\ML models\classifiers>python classifiers_withrfecv.py
+##########################################
+current device dataset: Laptop
+the current model: part2
+the number of features in cur model 43
+number of features selected: 43
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.888507718696
+auc socre obtained 0.899691358025
+precision score obtained 1.0
+recall score obtained 0.799382716049
+accuracy score 0.899691358025
+##########################################
+current device dataset: Smart_Phone
+the current model: part2
+the number of features in cur model 43
+number of features selected: 42
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.878453038674
+auc socre obtained 0.891625615764
+precision score obtained 1.0
+recall score obtained 0.783251231527
+accuracy score 0.891625615764
+##########################################
+current device dataset: Desktop_Computer
+the current model: part2
+the number of features in cur model 43
+number of features selected: 27
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.856060606061
+auc socre obtained 0.87417218543
+precision score obtained 1.0
+recall score obtained 0.748344370861
+accuracy score 0.87417218543
+##########################################
+current device dataset: Smart_Watch
+the current model: part2
+the number of features in cur model 43
+number of features selected: 30
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.96
+auc socre obtained 0.961538461538
+precision score obtained 1.0
+recall score obtained 0.923076923077
+accuracy score 0.961538461538
+##########################################
+current device dataset: Tablet
+the current model: part2
+the number of features in cur model 43
+number of features selected: 41
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.92532942899
+auc socre obtained 0.930517711172
+precision score obtained 1.0
+recall score obtained 0.861035422343
+
+accuracy score 0.930517711172
+##########################################
+current device dataset: Smart_Speaker
+the current model: part2
+the number of features in cur model 40
+number of features selected: 40
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.940239043825
+auc socre obtained 0.943609022556
+precision score obtained 1.0
+recall score obtained 0.887218045113
+accuracy score 0.943609022556
+#####################################################
+participant accuracy: 0.739583333333
+
+C:\Users\sree2\Dropbox\SYR_GAship\afforadance_Study\ML models\classifiers>python classifiers_withrfecv.py
+##########################################
+current device dataset: Laptop
+the current model: part2_loc_rel
+the number of features in cur model 47
+number of features selected: 46
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.888507718696
+auc socre obtained 0.899691358025
+precision score obtained 1.0
+recall score obtained 0.799382716049
+accuracy score 0.899691358025
+##########################################
+current device dataset: Smart_Phone
+the current model: part2_loc_rel
+the number of features in cur model 47
+number of features selected: 46
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.883081155433
+auc socre obtained 0.895320197044
+precision score obtained 1.0
+recall score obtained 0.790640394089
+accuracy score 0.895320197044
+##########################################
+current device dataset: Desktop_Computer
+the current model: part2_loc_rel
+the number of features in cur model 47
+number of features selected: 1
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.811023622047
+auc socre obtained 0.841059602649
+precision score obtained 1.0
+recall score obtained 0.682119205298
+accuracy score 0.841059602649
+##########################################
+current device dataset: Smart_Watch
+the current model: part2_loc_rel
+the number of features in cur model 47
+number of features selected: 44
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.96
+auc socre obtained 0.961538461538
+precision score obtained 1.0
+recall score obtained 0.923076923077
+accuracy score 0.961538461538
+##########################################
+current device dataset: Tablet
+the current model: part2_loc_rel
+the number of features in cur model 47
+number of features selected: 45
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.92532942899
+auc socre obtained 0.930517711172
+precision score obtained 1.0
+recall score obtained 0.861035422343
+accuracy score 0.930517711172
+##########################################
+current device dataset: Smart_Speaker
+the current model: part2_loc_rel
+the number of features in cur model 44
+number of features selected: 44
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.940239043825
+auc socre obtained 0.943609022556
+precision score obtained 1.0
+recall score obtained 0.887218045113
+accuracy score 0.943609022556
+#####################################################
+participant accuracy: 0.852272727273
+
+C:\Users\sree2\Dropbox\SYR_GAship\afforadance_Study\ML models\classifiers>python classifiers_withrfecv.py
+##########################################
+current device dataset: Laptop
+the current model: part1_part2
+the number of features in cur model 86
+number of features selected: 86
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.888507718696
+auc socre obtained 0.899691358025
+precision score obtained 1.0
+recall score obtained 0.799382716049
+accuracy score 0.899691358025
+##########################################
+current device dataset: Smart_Phone
+the current model: part1_part2
+the number of features in cur model 86
+number of features selected: 86
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.893732970027
+auc socre obtained 0.9039408867
+precision score obtained 1.0
+recall score obtained 0.807881773399
+accuracy score 0.9039408867
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1_part2
+the number of features in cur model 86
+number of features selected: 1
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.811023622047
+auc socre obtained 0.841059602649
+precision score obtained 1.0
+recall score obtained 0.682119205298
+accuracy score 0.841059602649
+##########################################
+current device dataset: Smart_Watch
+the current model: part1_part2
+the number of features in cur model 86
+number of features selected: 73
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.96
+auc socre obtained 0.961538461538
+precision score obtained 1.0
+recall score obtained 0.923076923077
+accuracy score 0.961538461538
+##########################################
+current device dataset: Tablet
+the current model: part1_part2
+the number of features in cur model 86
+number of features selected: 84
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.92532942899
+auc socre obtained 0.930517711172
+precision score obtained 1.0
+recall score obtained 0.861035422343
+accuracy score 0.930517711172
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1_part2
+the number of features in cur model 83
+number of features selected: 83
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.940239043825
+auc socre obtained 0.943609022556
+precision score obtained 1.0
+recall score obtained 0.887218045113
+accuracy score 0.943609022556
+#####################################################
+participant accuracy: 0.770833333333
+
+C:\Users\sree2\Dropbox\SYR_GAship\afforadance_Study\ML models\classifiers>python classifiers_withrfecv.py
+##########################################
+current device dataset: Laptop
+the current model: part1_part2_loc_rel
+the number of features in cur model 90
+number of features selected: 84
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.888507718696
+auc socre obtained 0.899691358025
+precision score obtained 1.0
+recall score obtained 0.799382716049
+accuracy score 0.899691358025
+##########################################
+current device dataset: Smart_Phone
+the current model: part1_part2_loc_rel
+the number of features in cur model 90
+number of features selected: 89
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.869080779944
+auc socre obtained 0.921655463612
+precision score obtained 1.0
+recall score obtained 0.768472906404
+accuracy score 0.884236453202
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1_part2_loc_rel
+the number of features in cur model 90
+number of features selected: 1
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.811023622047
+auc socre obtained 0.841059602649
+precision score obtained 1.0
+recall score obtained 0.682119205298
+accuracy score 0.841059602649
+##########################################
+current device dataset: Smart_Watch
+the current model: part1_part2_loc_rel
+the number of features in cur model 90
+number of features selected: 85
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.96
+auc socre obtained 0.961538461538
+precision score obtained 1.0
+recall score obtained 0.923076923077
+accuracy score 0.961538461538
+##########################################
+current device dataset: Tablet
+the current model: part1_part2_loc_rel
+the number of features in cur model 90
+number of features selected: 90
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.92532942899
+auc socre obtained 0.930517711172
+precision score obtained 1.0
+recall score obtained 0.861035422343
+accuracy score 0.930517711172
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1_part2_loc_rel
+the number of features in cur model 87
+number of features selected: 86
+positive class in data 0.5
+
+current classifier: Decisiontree
+F1 score obtained: 0.940239043825
+auc socre obtained 0.943609022556
+precision score obtained 1.0
+recall score obtained 0.887218045113
+accuracy score 0.943609022556
+#####################################################
+participant accuracy: 0.753968253968

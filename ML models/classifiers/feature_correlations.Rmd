@@ -1,0 +1,38 @@
+---
+title: "finding_correlated_features"
+author: "Sree"
+date: "November 28, 2018"
+output: word_document
+---
+
+```{r}
+
+library(caret)
+
+data_x <- read.csv('~/Dropbox/SYR_GAship/afforadance_Study/ML models/interaction_exploration/Smart_Phone_matrices_important.csv')
+data <- read.csv('~/Dropbox/SYR_GAship/afforadance_Study/ML models/interaction_exploration/Smart_Phone_matrices_important_all.csv')
+data_y <- read.csv('~/Dropbox/SYR_GAship/afforadance_Study/ML models/interaction_exploration/Smart_Phone_matrices_y_important.csv')
+data_x <- read.csv('~/Dropbox/SYR_GAship/afforadance_Study/ML models/interaction_exploration/Smart_Phone_matrices.csv')
+
+```
+
+
+
+
+```{r}
+correlationMatrix <- cor(as.matrix(data_x))
+
+highlyCorrelated <- findCorrelation(correlationMatrix, cutoff=0.5)
+names = colnames(data_x)[-highlyCorrelated]
+
+write.csv(names)
+
+data_test = data[names]
+
+data_test$actual_use = data$actual_use
+
+mylogit <- glm(actual_use ~ .,data = data_test, family= "binomial"(link='logit'))
+
+summary(mylogit)
+```
+

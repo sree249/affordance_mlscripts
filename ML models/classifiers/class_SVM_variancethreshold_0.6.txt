@@ -1,0 +1,90 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (195, 10)
+shape of test data: (131, 10)
+positive class in train 0.205128205128
+positive class in test 0.18320610687
+
+current classifier: SVM
+current reduction: variancethreshold
+F1 score obtained: 0.0
+auc socre obtained 0.631230529595
+precision score obtained 0.0
+recall score obtained 0.0
+accuracy score 0.786259541985
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Phone
+shape of train data: (217, 15)
+shape of test data: (146, 15)
+positive class in train 0.58064516129
+positive class in test 0.63698630137
+
+current classifier: SVM
+current reduction: variancethreshold
+F1 score obtained: 0.955056179775
+auc socre obtained 0.986406979103
+precision score obtained 1.0
+recall score obtained 0.913978494624
+accuracy score 0.945205479452
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop Computer
+shape of train data: (147, 14)
+shape of test data: (98, 14)
+positive class in train 0.108843537415
+positive class in test 0.102040816327
+
+current classifier: SVM
+current reduction: variancethreshold
+F1 score obtained: 0.0
+auc socre obtained 0.519318181818
+precision score obtained 0.0
+recall score obtained 0.0
+accuracy score 0.887755102041
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of train data: (184, 13)
+shape of test data: (123, 13)
+positive class in train 0.233695652174
+positive class in test 0.227642276423
+
+current classifier: SVM
+current reduction: variancethreshold
+F1 score obtained: 0.0
+auc socre obtained 0.525187969925
+precision score obtained 0.0
+recall score obtained 0.0
+accuracy score 0.764227642276
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Speaker
+shape of train data: (155, 11)
+shape of test data: (104, 11)
+positive class in train 0.174193548387
+positive class in test 0.163461538462
+
+current classifier: SVM
+current reduction: variancethreshold
+F1 score obtained: 0.6
+auc socre obtained 0.895875591616
+precision score obtained 0.692307692308
+recall score obtained 0.529411764706
+accuracy score 0.884615384615
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Watch
+shape of train data: (149, 12)
+shape of test data: (100, 12)
+positive class in train 0.308724832215
+positive class in test 0.3
+
+current classifier: SVM
+current reduction: variancethreshold
+F1 score obtained: 0.461538461538
+auc socre obtained 0.715714285714
+precision score obtained 0.545454545455
+recall score obtained 0.4
+accuracy score 0.72
+labels : [ 0.  1.]

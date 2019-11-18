@@ -1,0 +1,84 @@
+##########################################
+current device dataset: Laptop
+the current model: part1_part2_loc_rel
+the number of features in cur model 118
+shape of data: (648, 10)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.884478347385
+auc socre obtained 0.919127756614
+precision score obtained 0.936842109397
+recall score obtained 0.842329545455
+accuracy score 0.893276515152
+##########################################
+current device dataset: Smart_Phone
+the current model: part1_part2_loc_rel
+the number of features in cur model 118
+shape of data: (812, 10)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.877497913352
+auc socre obtained 0.905374126264
+precision score obtained 0.930531231058
+recall score obtained 0.832865853659
+accuracy score 0.884298780488
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1_part2_loc_rel
+the number of features in cur model 118
+shape of data: (302, 10)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.876392432599
+auc socre obtained 0.925115451389
+precision score obtained 0.957619047619
+recall score obtained 0.815416666667
+accuracy score 0.887708333333
+##########################################
+current device dataset: Smart_Watch
+the current model: part1_part2_loc_rel
+the number of features in cur model 118
+shape of data: (468, 10)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.947021183154
+auc socre obtained 0.957342863894
+precision score obtained 0.973301336345
+recall score obtained 0.923007246377
+accuracy score 0.948731884058
+##########################################
+current device dataset: Tablet
+the current model: part1_part2_loc_rel
+the number of features in cur model 118
+shape of data: (734, 10)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.920786472548
+auc socre obtained 0.935681627574
+precision score obtained 0.982402498469
+recall score obtained 0.869369369369
+accuracy score 0.926501501502
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1_part2_loc_rel
+the number of features in cur model 118
+shape of data: (266, 10)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.907308170091
+auc socre obtained 0.914074387151
+precision score obtained 0.940018315018
+recall score obtained 0.887362637363
+accuracy score 0.913461538462

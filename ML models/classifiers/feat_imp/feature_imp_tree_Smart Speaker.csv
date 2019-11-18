@@ -1,0 +1,119 @@
+,features,Importance
+0,Smart Speaker_Q11_feat3,0.19544130671252913
+1,Smart Speaker_Q12_feat5,0.15384268279394137
+2,Smart Speaker_Q13_feat4,0.12085176214656952
+3,Smart Speaker_Q2_feat5,0.10376073352937998
+4,Smart Speaker_Q9_feat4,0.06362135091516671
+5,Smart Speaker_Q7_feat5,0.06340928270042195
+6,Smart Speaker_Q4_feat3,0.04776485555103978
+7,Smart Speaker_Q10_feat2,0.04379528036760413
+8,Smart Speaker_Q8_feat2,0.04099193548387096
+9,Smart Speaker_Q3_feat4,0.03291297739868644
+10,Smart Speaker_Q4_feat1,0.029840072420307222
+11,Q11_feat3,0.02339866942931349
+12,Smart Speaker_Q5_feat3,0.014239573650812479
+13,Smart Speaker_Q5_feat1,0.013127513836374583
+14,Smart Speaker_Q7_feat2,0.008603174603174607
+15,Smart Speaker_Q1_feat2,0.008308270676691733
+16,Smart Speaker_Q3_feat2,0.007208323025661467
+17,Q6_feat3,0.004462166918049271
+18,Smart Speaker_Q5_feat4,0.002419545105643764
+19,Smart Speaker_Q12_feat1,0.002397942024343377
+20,Smart Speaker_Q2_feat2,0.0023585705395660125
+21,Q4_feat1,0.00229920814479638
+22,Q13_feat4,0.0022638357117995113
+23,Q8_feat5,0.0022072398190045254
+24,Q5_feat6,0.0021021331609566906
+25,Q5_feat1,0.001961990950226244
+26,Q9_feat2,0.0018393665158371038
+27,Q8_feat3,0.0012262443438914026
+28,Q10_feat7,0.0007018007159032837
+29,Q10_feat3,0.00048433769693359015
+30,Q3_feat1,0.00046714070243482055
+31,Q10_feat6,0.00040874811463046746
+32,Q1_feat7,0.0003148122125104219
+33,Q2_feat3,0.0003040821553585118
+34,Q3_feat6,0.0002596046749499408
+35,Q1_feat2,0.00012795593153649374
+36,Q4_feat3,0.00010693155230621955
+37,Relationship_3,4.899213594862827e-05
+38,Q6_feat1,3.844576606690299e-05
+39,Q9_feat3,2.6683348855278742e-05
+40,Relationship_1,1.9322946327131158e-05
+41,location_2,1.923039177939475e-05
+42,Q3_feat2,1.5903178799093075e-05
+43,Q1_feat1,0.0
+44,Q1_feat3,0.0
+45,Q1_feat4,0.0
+46,Q1_feat5,0.0
+47,Q2_feat1,0.0
+48,Q2_feat2,0.0
+49,Q2_feat5,0.0
+50,Q3_feat3,0.0
+51,Q3_feat4,0.0
+52,Q5_feat2,0.0
+53,Q5_feat3,0.0
+54,Q5_feat4,0.0
+55,Q6_feat2,0.0
+56,Q6_feat4,0.0
+57,Q7_feat1,0.0
+58,Q7_feat2,0.0
+59,Q7_feat3,0.0
+60,Q7_feat5,0.0
+61,Q8_feat1,0.0
+62,Q8_feat2,0.0
+63,Q9_feat1,0.0
+64,Q9_feat4,0.0
+65,Q9_feat6,0.0
+66,Q10_feat1,0.0
+67,Q10_feat2,0.0
+68,Q10_feat4,0.0
+69,Q11_feat1,0.0
+70,Q11_feat2,0.0
+71,Q11_feat5,0.0
+72,Q12_feat1,0.0
+73,Q12_feat2,0.0
+74,Q12_feat3,0.0
+75,Q12_feat5,0.0
+76,Q13_feat1,0.0
+77,Q13_feat2,0.0
+78,Smart Speaker_Q1_feat1,0.0
+79,Smart Speaker_Q1_feat3,0.0
+80,Smart Speaker_Q1_feat4,0.0
+81,Smart Speaker_Q1_feat5,0.0
+82,Smart Speaker_Q1_feat7,0.0
+83,Smart Speaker_Q2_feat1,0.0
+84,Smart Speaker_Q2_feat3,0.0
+85,Smart Speaker_Q3_feat1,0.0
+86,Smart Speaker_Q3_feat3,0.0
+87,Smart Speaker_Q3_feat6,0.0
+88,Smart Speaker_Q5_feat2,0.0
+89,Smart Speaker_Q5_feat6,0.0
+90,Smart Speaker_Q6_feat1,0.0
+91,Smart Speaker_Q6_feat2,0.0
+92,Smart Speaker_Q6_feat3,0.0
+93,Smart Speaker_Q6_feat4,0.0
+94,Smart Speaker_Q7_feat1,0.0
+95,Smart Speaker_Q7_feat3,0.0
+96,Smart Speaker_Q8_feat1,0.0
+97,Smart Speaker_Q8_feat3,0.0
+98,Smart Speaker_Q8_feat5,0.0
+99,Smart Speaker_Q9_feat1,0.0
+100,Smart Speaker_Q9_feat2,0.0
+101,Smart Speaker_Q9_feat3,0.0
+102,Smart Speaker_Q9_feat6,0.0
+103,Smart Speaker_Q10_feat1,0.0
+104,Smart Speaker_Q10_feat3,0.0
+105,Smart Speaker_Q10_feat4,0.0
+106,Smart Speaker_Q10_feat6,0.0
+107,Smart Speaker_Q10_feat7,0.0
+108,Smart Speaker_Q11_feat1,0.0
+109,Smart Speaker_Q11_feat2,0.0
+110,Smart Speaker_Q11_feat5,0.0
+111,Smart Speaker_Q12_feat2,0.0
+112,Smart Speaker_Q12_feat3,0.0
+113,Smart Speaker_Q13_feat1,0.0
+114,Smart Speaker_Q13_feat2,0.0
+115,location_1,0.0
+116,location_3,0.0
+117,Relationship_2,0.0

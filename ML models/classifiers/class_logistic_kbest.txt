@@ -1,0 +1,90 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (195, 50)
+shape of test data: (131, 50)
+positive class in train 0.205128205128
+positive class in test 0.18320610687
+
+current classifier: logistic
+current reduction: selectkbest
+F1 score obtained: 0.978723404255
+auc socre obtained 0.997663551402
+precision score obtained 1.0
+recall score obtained 0.958333333333
+accuracy score 0.992366412214
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Phone
+shape of train data: (217, 50)
+shape of test data: (146, 50)
+positive class in train 0.58064516129
+positive class in test 0.63698630137
+
+current classifier: logistic
+current reduction: selectkbest
+F1 score obtained: 0.989130434783
+auc socre obtained 0.996551024549
+precision score obtained 1.0
+recall score obtained 0.978494623656
+accuracy score 0.986301369863
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop Computer
+shape of train data: (147, 50)
+shape of test data: (98, 50)
+positive class in train 0.108843537415
+positive class in test 0.102040816327
+
+current classifier: logistic
+current reduction: selectkbest
+F1 score obtained: 0.947368421053
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.9
+accuracy score 0.989795918367
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of train data: (184, 50)
+shape of test data: (123, 50)
+positive class in train 0.233695652174
+positive class in test 0.227642276423
+
+current classifier: logistic
+current reduction: selectkbest
+F1 score obtained: 0.962962962963
+auc socre obtained 0.982142857143
+precision score obtained 1.0
+recall score obtained 0.928571428571
+accuracy score 0.983739837398
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Speaker
+shape of train data: (155, 50)
+shape of test data: (104, 50)
+positive class in train 0.174193548387
+positive class in test 0.163461538462
+
+current classifier: logistic
+current reduction: selectkbest
+F1 score obtained: 0.969696969697
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.941176470588
+accuracy score 0.990384615385
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Watch
+shape of train data: (149, 50)
+shape of test data: (100, 50)
+positive class in train 0.308724832215
+positive class in test 0.3
+
+current classifier: logistic
+current reduction: selectkbest
+F1 score obtained: 0.983050847458
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.966666666667
+accuracy score 0.99
+labels : [ 0.  1.]

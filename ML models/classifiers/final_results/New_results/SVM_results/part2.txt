@@ -1,0 +1,68 @@
+##########################################
+current device dataset: Laptop
+the current model: part2
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.897959183673
+auc socre obtained 0.907407407407
+precision score obtained 1.0
+recall score obtained 0.814814814815
+accuracy score 0.907407407407
+##########################################
+current device dataset: Smart_Phone
+the current model: part2
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.881542699725
+auc socre obtained 0.894088669951
+precision score obtained 1.0
+recall score obtained 0.788177339901
+accuracy score 0.894088669951
+##########################################
+current device dataset: Desktop_Computer
+the current model: part2
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.868913857678
+auc socre obtained 0.884105960265
+precision score obtained 1.0
+recall score obtained 0.76821192053
+accuracy score 0.884105960265
+##########################################
+current device dataset: Smart_Watch
+the current model: part2
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.96
+auc socre obtained 0.961538461538
+precision score obtained 1.0
+recall score obtained 0.923076923077
+accuracy score 0.961538461538
+##########################################
+current device dataset: Tablet
+the current model: part2
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.928467153285
+auc socre obtained 0.933242506812
+precision score obtained 1.0
+recall score obtained 0.866485013624
+accuracy score 0.933242506812
+##########################################
+current device dataset: Smart_Speaker
+the current model: part2
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.940239043825
+auc socre obtained 0.943609022556
+precision score obtained 1.0
+recall score obtained 0.887218045113
+accuracy score 0.943609022556
+#####################################################
+participant accuracy: 0.767676767677

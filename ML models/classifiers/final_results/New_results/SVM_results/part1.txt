@@ -1,0 +1,68 @@
+##########################################
+current device dataset: Laptop
+the current model: part1
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.6887835703
+auc socre obtained 0.756706294772
+precision score obtained 0.705501618123
+recall score obtained 0.672839506173
+accuracy score 0.695987654321
+##########################################
+current device dataset: Smart_Phone
+the current model: part1
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.679636835279
+auc socre obtained 0.7520262564
+precision score obtained 0.717808219178
+recall score obtained 0.645320197044
+accuracy score 0.695812807882
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.695081967213
+auc socre obtained 0.759593877462
+precision score obtained 0.688311688312
+recall score obtained 0.701986754967
+accuracy score 0.692052980132
+##########################################
+current device dataset: Smart_Watch
+the current model: part1
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.726141078838
+auc socre obtained 0.753141208269
+precision score obtained 0.70564516129
+recall score obtained 0.747863247863
+accuracy score 0.717948717949
+##########################################
+current device dataset: Tablet
+the current model: part1
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.667578659371
+auc socre obtained 0.723544610176
+precision score obtained 0.67032967033
+recall score obtained 0.66485013624
+accuracy score 0.6689373297
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1
+the number of features in cur model 43
+positive class in data 0.5
+
+F1 score obtained: 0.78125
+auc socre obtained 0.827632992255
+precision score obtained 0.813008130081
+recall score obtained 0.751879699248
+accuracy score 0.789473684211
+#####################################################
+participant accuracy: 0.591954022989

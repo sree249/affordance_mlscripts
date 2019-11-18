@@ -1,0 +1,86 @@
+##########################################
+current device dataset: Laptop
+the current model: part1_part2_loc_rel
+the number of features in cur model 8
+shape of data: (648, 8)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: selectkbest
+F1 score obtained: 0.896081771721
+auc socre obtained 0.878991388508
+precision score obtained 1.0
+recall score obtained 0.811728395062
+accuracy score 0.905864197531
+##########################################
+current device dataset: Smart_Phone
+the current model: part1_part2_loc_rel
+the number of features in cur model 17
+shape of data: (812, 17)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: selectkbest
+F1 score obtained: 0.89378238342
+auc socre obtained 0.930494552161
+precision score obtained 0.94262295082
+recall score obtained 0.849753694581
+accuracy score 0.899014778325
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1_part2_loc_rel
+the number of features in cur model 9
+shape of data: (302, 9)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: selectkbest
+F1 score obtained: 0.860377358491
+auc socre obtained 0.836454541467
+precision score obtained 1.0
+recall score obtained 0.754966887417
+accuracy score 0.877483443709
+##########################################
+current device dataset: Smart_Watch
+the current model: part1_part2_loc_rel
+the number of features in cur model 9
+shape of data: (468, 9)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: selectkbest
+F1 score obtained: 0.957683741648
+auc socre obtained 0.943586091022
+precision score obtained 1.0
+recall score obtained 0.918803418803
+accuracy score 0.959401709402
+##########################################
+current device dataset: Tablet
+the current model: part1_part2_loc_rel
+the number of features in cur model 20
+shape of data: (734, 20)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: selectkbest
+F1 score obtained: 0.923753665689
+auc socre obtained 0.909317019207
+precision score obtained 1.0
+recall score obtained 0.858310626703
+accuracy score 0.929155313351
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1_part2_loc_rel
+the number of features in cur model 11
+shape of data: (266, 11)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: selectkbest
+F1 score obtained: 0.931726907631
+auc socre obtained 0.936316354797
+precision score obtained 1.0
+recall score obtained 0.872180451128
+accuracy score 0.936090225564
+#####################################################
+participant accuracy: 0.729885057471

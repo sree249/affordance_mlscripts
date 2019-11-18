@@ -1,0 +1,84 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (106, 112)
+shape of test data: (72, 112)
+positive class in train 0.179245283019
+positive class in test 0.138888888889
+
+current classifier: SVM
+F1 score obtained: 0.947368421053
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.9
+accuracy score 0.986111111111
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Phone
+shape of train data: (123, 112)
+shape of test data: (83, 112)
+positive class in train 0.674796747967
+positive class in test 0.566265060241
+
+current classifier: SVM
+F1 score obtained: 1.0
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 1.0
+accuracy score 1.0
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop Computer
+shape of train data: (75, 112)
+shape of test data: (50, 112)
+positive class in train 0.08
+positive class in test 0.06
+
+current classifier: SVM
+F1 score obtained: 0.8
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.666666666667
+accuracy score 0.98
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of train data: (103, 112)
+shape of test data: (70, 112)
+positive class in train 0.26213592233
+positive class in test 0.242857142857
+
+current classifier: SVM
+F1 score obtained: 1.0
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 1.0
+accuracy score 1.0
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Speaker
+shape of train data: (91, 112)
+shape of test data: (61, 112)
+positive class in train 0.175824175824
+positive class in test 0.180327868852
+
+current classifier: SVM
+F1 score obtained: 1.0
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 1.0
+accuracy score 1.0
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Watch
+shape of train data: (85, 112)
+shape of test data: (57, 112)
+positive class in train 0.352941176471
+positive class in test 0.263157894737
+
+current classifier: SVM
+F1 score obtained: 1.0
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 1.0
+accuracy score 1.0
+labels : [ 0.  1.]

@@ -1,0 +1,68 @@
+##########################################
+current device dataset: Laptop
+the current model: part1_loc_rel
+the number of features in cur model 49
+positive class in data 0.5
+
+F1 score obtained: 0.73984962406
+auc socre obtained 0.807670324646
+precision score obtained 0.721407624633
+recall score obtained 0.759259259259
+accuracy score 0.733024691358
+##########################################
+current device dataset: Smart_Phone
+the current model: part1_loc_rel
+the number of features in cur model 49
+positive class in data 0.5
+
+F1 score obtained: 0.7252195734
+auc socre obtained 0.790925525977
+precision score obtained 0.739130434783
+recall score obtained 0.711822660099
+accuracy score 0.730295566502
+##########################################
+current device dataset: Desktop_Computer
+the current model: part1_loc_rel
+the number of features in cur model 49
+positive class in data 0.5
+
+F1 score obtained: 0.719723183391
+auc socre obtained 0.73178807947
+precision score obtained 0.753623188406
+recall score obtained 0.688741721854
+accuracy score 0.73178807947
+##########################################
+current device dataset: Smart_Watch
+the current model: part1_loc_rel
+the number of features in cur model 49
+positive class in data 0.5
+
+F1 score obtained: 0.743902439024
+auc socre obtained 0.799382716049
+precision score obtained 0.709302325581
+recall score obtained 0.782051282051
+accuracy score 0.730769230769
+##########################################
+current device dataset: Tablet
+the current model: part1_loc_rel
+the number of features in cur model 49
+positive class in data 0.5
+
+F1 score obtained: 0.644415917843
+auc socre obtained 0.671547045416
+precision score obtained 0.609223300971
+recall score obtained 0.683923705722
+accuracy score 0.622615803815
+##########################################
+current device dataset: Smart_Speaker
+the current model: part1_loc_rel
+the number of features in cur model 49
+positive class in data 0.5
+
+F1 score obtained: 0.814814814815
+auc socre obtained 0.864689920289
+precision score obtained 0.802919708029
+recall score obtained 0.827067669173
+accuracy score 0.812030075188
+#####################################################
+participant accuracy: 0.612903225806

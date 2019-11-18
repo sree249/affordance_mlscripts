@@ -1,0 +1,6 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (106, 112)
+shape of test data: (72, 112)
+positive class in train 0.160377358491
+positive class in test 0.166666666667

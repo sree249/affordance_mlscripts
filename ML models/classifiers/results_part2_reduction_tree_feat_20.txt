@@ -1,0 +1,84 @@
+##########################################
+current device dataset: Laptop
+the current model: part2
+the number of features in cur model 56
+shape of data: (648, 20)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.892485433658
+auc socre obtained 0.905634469697
+precision score obtained 1.0
+recall score obtained 0.811268939394
+accuracy score 0.905634469697
+##########################################
+current device dataset: Smart_Phone
+the current model: part2
+the number of features in cur model 56
+shape of data: (812, 20)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.875999617247
+auc socre obtained 0.891798780488
+precision score obtained 1.0
+recall score obtained 0.788475609756
+accuracy score 0.893048780488
+##########################################
+current device dataset: Desktop_Computer
+the current model: part2
+the number of features in cur model 56
+shape of data: (302, 20)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.861195191781
+auc socre obtained 0.881458333333
+precision score obtained 1.0
+recall score obtained 0.762916666667
+accuracy score 0.881458333333
+##########################################
+current device dataset: Smart_Watch
+the current model: part2
+the number of features in cur model 56
+shape of data: (468, 20)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.952506766349
+auc socre obtained 0.957155797101
+precision score obtained 1.0
+recall score obtained 0.91847826087
+accuracy score 0.954981884058
+##########################################
+current device dataset: Tablet
+the current model: part2
+the number of features in cur model 56
+shape of data: (734, 20)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.927010529087
+auc socre obtained 0.931981981982
+precision score obtained 1.0
+recall score obtained 0.863963963964
+accuracy score 0.933370870871
+##########################################
+current device dataset: Smart_Speaker
+the current model: part2
+the number of features in cur model 56
+shape of data: (266, 20)
+positive class in data 0.5
+
+current classifier: Decisiontree
+current reduction: tree
+F1 score obtained: 0.934893843676
+auc socre obtained 0.94010989011
+precision score obtained 1.0
+recall score obtained 0.864835164835
+accuracy score 0.94010989011

@@ -1,0 +1,90 @@
+##########################################
+current device dataset: Laptop
+shape of train data: (195, 5)
+shape of test data: (131, 5)
+positive class in train 0.205128205128
+positive class in test 0.18320610687
+
+current classifier: logistic
+current reduction: pca
+F1 score obtained: 0.95652173913
+auc socre obtained 0.989096573209
+precision score obtained 1.0
+recall score obtained 0.916666666667
+accuracy score 0.984732824427
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Phone
+shape of train data: (217, 5)
+shape of test data: (146, 5)
+positive class in train 0.58064516129
+positive class in test 0.63698630137
+
+current classifier: logistic
+current reduction: pca
+F1 score obtained: 0.983606557377
+auc socre obtained 0.993913572733
+precision score obtained 1.0
+recall score obtained 0.967741935484
+accuracy score 0.979452054795
+labels : [ 0.  1.]
+##########################################
+current device dataset: Desktop Computer
+shape of train data: (147, 5)
+shape of test data: (98, 5)
+positive class in train 0.108843537415
+positive class in test 0.102040816327
+
+current classifier: logistic
+current reduction: pca
+F1 score obtained: 0.888888888889
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.8
+accuracy score 0.979591836735
+labels : [ 0.  1.]
+##########################################
+current device dataset: Tablet
+shape of train data: (184, 5)
+shape of test data: (123, 5)
+positive class in train 0.233695652174
+positive class in test 0.227642276423
+
+current classifier: logistic
+current reduction: pca
+F1 score obtained: 0.962962962963
+auc socre obtained 0.993233082707
+precision score obtained 1.0
+recall score obtained 0.928571428571
+accuracy score 0.983739837398
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Speaker
+shape of train data: (155, 5)
+shape of test data: (104, 5)
+positive class in train 0.174193548387
+positive class in test 0.163461538462
+
+current classifier: logistic
+current reduction: pca
+F1 score obtained: 0.969696969697
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.941176470588
+accuracy score 0.990384615385
+labels : [ 0.  1.]
+##########################################
+current device dataset: Smart Watch
+shape of train data: (149, 5)
+shape of test data: (100, 5)
+positive class in train 0.308724832215
+positive class in test 0.3
+
+current classifier: logistic
+current reduction: pca
+F1 score obtained: 0.983050847458
+auc socre obtained 1.0
+precision score obtained 1.0
+recall score obtained 0.966666666667
+accuracy score 0.99
+labels : [ 0.  1.]
